@@ -55,8 +55,8 @@ export class NodeMailer {
 				attachments: [
 					{
 						cid: 'n8n-logo',
-						filename: 'n8n-logo.png',
-						path: path.resolve(__dirname, 'templates/n8n-logo.png'),
+						filename: 'maestro-logo.png',
+						path: path.resolve(__dirname, 'templates/maestro-logo.png'),
 						contentDisposition: 'inline',
 					},
 				],
