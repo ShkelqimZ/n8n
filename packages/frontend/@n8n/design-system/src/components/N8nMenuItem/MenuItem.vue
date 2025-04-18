@@ -61,6 +61,8 @@ const isItemActive = (item: IMenuItem): boolean => {
 		Array.isArray(item.children) && item.children.some((child) => isActive(child));
 	return isActive(item) || hasActiveChild;
 };
+
+console.log('item', props.item);
 </script>
 
 <template>
